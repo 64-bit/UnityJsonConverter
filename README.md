@@ -58,12 +58,12 @@ UnityEngine.Ray
 UnityEngine.Plane
 ````
 All supported types are written to a JSON array of numbers
-Vector values are written in xyzw der
-Quaterion values are written in xyzw order by default
-Quaterion values can be written in wxyz order by setting the _UnityJsonConverter.QuaternionWComponentFirst_ field to true
-Matrix values are written in the order the [] accessor reads values
-Ray values are written as ray.origin.xyz ray.direction.xyz
-Plane values are written as plane.normal.xyz plane.distance
+* Vector values are written in xyzw order
+* Quaterion values are written in xyzw order by default
+* Quaterion values can be written in wxyz order by setting the _UnityJsonConverter.QuaternionWComponentFirst_ field to true
+* Matrix values are written in the order the [] accessor reads values
+* Ray values are written as ray.origin.xyz ray.direction.xyz
+* Plane values are written as plane.normal.xyz plane.distance
 
 ## Running the tests
 
